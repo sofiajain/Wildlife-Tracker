@@ -201,6 +201,24 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# --------------------------------------------------------------------
+# Streamlit + macOS + local temp files
+# --------------------------------------------------------------------
+
+# Streamlit local config, cache, and logs
+.streamlit/
+.streamlit/secrets.toml
+logs/
+cache/
+
+# MacOS Finder files
+.DS_Store
+
+# VSCode / Jupyter autosave folders
+.virtual_documents/
+.ipynb_checkpoints/
+
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
